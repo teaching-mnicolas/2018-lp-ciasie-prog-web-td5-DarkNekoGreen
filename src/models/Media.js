@@ -1,6 +1,4 @@
-MyMediatek.models.Media = (function () {
-
-    class Media {
+export class Media {
         constructor (title, releaseDate, rating, img) {
             this.title = title
             this.releaseDate = releaseDate
@@ -8,7 +6,3 @@ MyMediatek.models.Media = (function () {
             this.img = img
         }
     }
-
-    return Media
-
-})()
